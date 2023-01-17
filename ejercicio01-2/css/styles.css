@@ -39,6 +39,7 @@ body{
 
 .orange {
     background-color: #ff8000;
+    display: flex;
     overflow: hidden;
 }
 
@@ -117,13 +118,15 @@ body{
 
 .third {
     height: 3rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .yellow {
     background-color: yellow;
     height: 30%;
     width: 97%;
-    margin: 1rem;
+    overflow: hidden;
 }
 
 
