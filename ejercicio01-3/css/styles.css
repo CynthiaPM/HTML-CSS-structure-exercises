@@ -229,4 +229,108 @@ body{
     }
 }
 
+/*dispositivos moviles*/
+
+@media (min-width: 320px){
+
+    body{
+        margin: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .container{
+        width: 90%;
+        height: 22rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0.7rem;
+    }
+
+    .box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blue{
+        flex-direction: column;
+        height: 60%;
+        margin-top: 2rem;        
+        margin-bottom: 0.2rem;
+        width: 80%;
+        padding-top: 5px;
+        background-color: #2D4059;
+    }
+
+    .inside-b{
+        width: 72%;
+        margin: 0.5rem;
+        height: 20%;
+        margin: 1rem auto;
+        background-color: #EA5455;
+    }
+
+    .orange{
+        width: 80%;
+        height: 20%;
+        background-color: #F07B3F;
+        padding-bottom: 0.4rem;
+        margin-top: 1.5rem;
+    }
+
+    .inside-box {
+        width: 72%;
+        margin-top: 1.2rem;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50%;
+        background-color: #FED460;
+        
+    }
+
+    /*elementos del segundo bloque*/
+
+    .second{
+        flex-direction: column;
+        height: 35rem;        
+    }
+
+    .gray {
+        height: 60%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+
+    .inside-g{
+        height: 1.8rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 72%;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .media-g{
+        margin-top: 0;
+    }
+
+    .alone-g{
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .pink {
+        height: 20%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+
+
+}
+
 
