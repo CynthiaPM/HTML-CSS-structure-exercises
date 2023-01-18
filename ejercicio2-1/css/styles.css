@@ -143,11 +143,18 @@ body{
     }
 
     .blue {
-        height: 3.5rem;
+        height: 35%;
+        background-color: #2D4059;
+    }
+    
+    .inside-b{
+        height: 35%;
+        background-color: #EA5455;
     }
 
     .orange{
-        height: 3.5rem;
+        height: 35%;
+        background-color: #F07B3F;
     }
     
     .inside-box {
@@ -155,6 +162,70 @@ body{
         width: 95%;
         margin-left: auto;
         margin-right: auto;
+        background-color: #FED460;
+    }
+
+    /*elementos del segundo bloque*/
+
+    .second {
+        background-color: #FDFE03;
+        flex-direction: column;
+        height: 18rem;
+    }
+
+    .gray {
+        height: 47%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-bottom: 0.5rem;
+        margin-top: 1.5rem;
+        background-color: #4E4E6A;
+    }
+
+    .pink {
+        width: 95%;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #F73F52;
+    }
+    
+    .inside-p{
+        height: 25%;
+        margin-bottom: -0.5rem;
+        background-color: #FEEA85;
+    }
+
+    .inside-g{
+        height: 15%;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #1F6CB0;    
+    }
+
+    .media-g{
+        margin-top: 0.5rem;
+    }
+
+    .alone-g{
+        margin-top: 0.5rem;
+        width: 95%;
+        background-color: #70A3C4;
+    }
+
+    /*elementos del tercer bloque*/
+
+    .third {
+        height: 3.5rem;
+    }
+
+    .yellow{
+        height: 35%;
+        width: 95%;
+        margin: 1rem auto;
+        background-color: #E6AF2E;
     }
 }
 
