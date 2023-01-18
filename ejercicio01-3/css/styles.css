@@ -231,7 +231,7 @@ body{
 
 /*dispositivos moviles*/
 
-@media (min-width: 320px){
+@media (min-width: 320px) and (max-width: 767px){
 
     body{
         margin: 1rem;
@@ -244,11 +244,13 @@ body{
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 0.7rem;
+        
     }
 
     .box {
         margin-left: auto;
         margin-right: auto;
+        
     }
 
     .blue{
@@ -288,10 +290,11 @@ body{
     }
 
     /*elementos del segundo bloque*/
-
+    
     .second{
         flex-direction: column;
-        height: 35rem;        
+        height: 32rem;   
+        background-color: #FEE228;     
     }
 
     .gray {
@@ -301,34 +304,63 @@ body{
         margin-right: auto;
         margin-top: 2rem;
         flex-direction: column;
+        justify-content:space-around;
+        padding-top: 1rem;
+        background-color: #09506F;
     }
 
     .inside-g{
-        height: 1.8rem;
+        height: 10%;
         margin-left: auto;
         margin-right: auto;
         width: 72%;
         margin-top: 1.5rem;
         margin-bottom: 0;
+        background-color: #61959C;
     }
 
     .media-g{
         margin-top: 0;
     }
 
+    .media-g-2{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
     .alone-g{
         margin-top: 0;
         margin-bottom: 1.5rem;
+        background-color: #A3DDCB;
     }
 
     .pink {
-        height: 20%;
+        height: 30%;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+        padding-top: 0.5rem ;
+        background-color: #FD7B54;
     }
 
-    
+    .inside-p{
+        height: 20%;
+        margin-top: 1.5rem;
+        background-color: #FDB36B;
+    }
+
+    /*elementos del tercer bloque*/
+
+    .third {
+        height: 5rem;
+    }
+
+    .yellow{
+        height: 45%;
+        width: 80%;
+        margin: 1.4rem auto;
+        background-color: #FDC764;
+    }    
 
 
 }
