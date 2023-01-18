@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    
+    /*margin-left: auto ;
+    margin-right: auto;*/
+    margin: 1rem auto;
+}
+
+.container {
+    background-color: black;
+    height: 9rem;    
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{    
+    margin: 1rem;
+}
+
+/*elementos dentro del primer bloque*/
+
+.blue {
+    background-color: #40646E;
+    overflow: hidden;    
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;   
+}
+
+.orange {
+    background-color: #ff8000;
+    display: flex;
+    overflow: hidden;
+}
+
+.inside-b{
+    height: 1rem;
+    background-color: #CE641A;      
+    margin: 1rem 0;    
+}
+
+.short { 
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 10% ;    
+}
+
+.large {
+    width: 80%;
+}
+
+.inside-box{
+    height: 1rem;
+    width: 98%;
+    background-color: #F9F654;  
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.2rem;
+    justify-content: center;
+}
+
+/*elementos del segundo bloque*/
+.second {
+    height: 14rem;
+    flex-direction: row;    
+}
+
+.pink {
+    background-color: pink;    
+    width: 30%;
+    margin: 1rem
+    
+}
+
+.inside-p{
+    margin: 1rem;
+    height: 10%;
+    background-color: #ECE29F;
+}
+
+.gray {
+    background-color: gray;
+    margin: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.inside-g {
+    height: 12%;
+    background-color: #0AA5B5;   
+    width: 45%;
+    margin: 1rem;
+    margin-bottom: 0;
+}
+
+.alone-g{
+    background-color: #7EEBF6;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    width: 98%;
+}
+
+/*elementos del tercer bloque*/
+
+.third {
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 30%;
+    width: 97%;
+    overflow: hidden;
+}
+
+/*empieza el responsive*/
+
+/*dispositivos tablet*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        margin: 2rem;
+    }
+
+    .container {
+        max-width: 90%;
+        margin: 1rem auto;
+        height: 10rem;
+    }
+
+    .blue {
+        height: 35%;
+        background-color: #2D4059;
+    }
+    
+    .inside-b{
+        height: 35%;
+        background-color: #EA5455;
+    }
+
+    .orange{
+        height: 35%;
+        background-color: #F07B3F;
+    }
+    
+    .inside-box {
+        height: 35%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FED460;
+    }
+
+    /*elementos del segundo bloque*/
+
+    .second {
+        background-color: #FDFE03;
+        flex-direction: column;
+        height: 18rem;
+    }
+
+    .gray {
+        height: 47%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-bottom: 0.5rem;
+        margin-top: 1.5rem;
+        background-color: #4E4E6A;
+    }
+
+    .pink {
+        width: 95%;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #F73F52;
+    }
+    
+    .inside-p{
+        height: 25%;
+        margin-bottom: -0.5rem;
+        background-color: #FEEA85;
+    }
+
+    .inside-g{
+        height: 15%;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #1F6CB0;    
+    }
+
+    .media-g{
+        margin-top: 0.5rem;
+    }
+
+    .alone-g{
+        margin-top: 0.5rem;
+        width: 95%;
+        background-color: #70A3C4;
+    }
+
+    /*elementos del tercer bloque*/
+
+    .third {
+        height: 3.5rem;
+    }
+
+    .yellow{
+        height: 35%;
+        width: 95%;
+        margin: 1rem auto;
+        background-color: #E6AF2E;
+    }
+}
+
+
