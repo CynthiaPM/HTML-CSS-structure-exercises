@@ -32,9 +32,7 @@ body{
     overflow: hidden;    
     display: flex;
     flex-direction: row;
-    margin-bottom: 0;
-
-   
+    margin-bottom: 0;   
 }
 
 .orange {
@@ -127,6 +125,37 @@ body{
     height: 30%;
     width: 97%;
     overflow: hidden;
+}
+
+/*empieza el responsive*/
+
+/*dispositivos tablet*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        margin: 2rem;
+    }
+
+    .container {
+        max-width: 90%;
+        margin: 1rem auto;
+        height: 10rem;
+    }
+
+    .blue {
+        height: 3.5rem;
+    }
+
+    .orange{
+        height: 3.5rem;
+    }
+    
+    .inside-box {
+        height: 35%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
