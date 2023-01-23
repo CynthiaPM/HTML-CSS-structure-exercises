@@ -32,7 +32,10 @@ body{
     overflow: hidden;    
     display: flex;
     flex-direction: row;
-    margin-bottom: 0;   
+    margin-bottom: 0;
+    padding: 0 0.5rem;
+
+   
 }
 
 .orange {
@@ -55,35 +58,35 @@ body{
 
 .large {
     width: 80%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .inside-box{
     height: 1rem;
     width: 98%;
     background-color: #F9F654;  
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 0.5rem;
-    margin-right: 0.2rem;
+    margin: 1rem;
     justify-content: center;
 }
 
 /*elementos del segundo bloque*/
 .second {
-    height: 14rem;
+    height: 10rem;
     flex-direction: row;    
 }
 
 .pink {
     background-color: pink;    
     width: 30%;
-    margin: 1rem
+    margin: 1rem;
+    padding-top: 0.5rem;
     
 }
 
 .inside-p{
-    margin: 1rem;
-    height: 10%;
+    margin: 0.5rem 1rem;
+    height: 15%;
     background-color: #ECE29F;
 }
 
@@ -98,7 +101,7 @@ body{
 }
 
 .inside-g {
-    height: 12%;
+    height: 15%;
     background-color: #0AA5B5;   
     width: 45%;
     margin: 1rem;
@@ -107,7 +110,7 @@ body{
 
 .alone-g{
     background-color: #7EEBF6;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 0.5rem;
     width: 98%;
 }
@@ -145,11 +148,22 @@ body{
     .blue {
         height: 35%;
         background-color: #2D4059;
+        padding: 0 0.60rem;
     }
     
     .inside-b{
         height: 35%;
         background-color: #EA5455;
+    }
+
+    .large{
+        width: 75%;
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+    }
+
+    .short{
+        width: 12%;
     }
 
     .orange{
@@ -193,7 +207,7 @@ body{
     
     .inside-p{
         height: 25%;
-        margin-bottom: -0.5rem;
+        margin-bottom: 0.75rem;
         background-color: #FEEA85;
     }
 
