@@ -324,10 +324,10 @@ body{
     }
 
     .inside-g{
-        height: 10%;
+        height: 11%;
         margin-left: auto;
         margin-right: auto;
-        width: 72%;
+        width: 80%;
         margin-top: 1.5rem;
         margin-bottom: 0;
         background-color: #61959C;
@@ -335,10 +335,11 @@ body{
 
     .media-g{
         margin-top: 0;
+        margin-bottom: 0.5rem;
     }
 
     .media-g-2{
-        margin-bottom: 0;
+        margin-bottom: 0.5rem;
         margin-top: 0;
     }
 
@@ -353,14 +354,18 @@ body{
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 0.5rem ;
+        padding-top: 1.2rem ;
         background-color: #FD7B54;
+
     }
 
     .inside-p{
-        height: 20%;
-        margin-top: 1.5rem;
+        height: 22%;
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
         background-color: #FDB36B;
+        width: 80%;
     }
 
     /*elementos del tercer bloque*/
