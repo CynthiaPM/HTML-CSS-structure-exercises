@@ -15,10 +15,9 @@ In this repository, you'll find a set of HTML and CSS exercises that cover a var
 
 ## How to Use
 
-As these exercises were part of my learning journey, you're welcome to explore the solutions I developed. You can clone or download this repository to your local machine and navigate through the exercise folders. Feel free to review the code, comments, and solutions to gain insights into HTML and CSS basics.
+As these exercises were part of my learning journey, you're welcome to explore the solutions I developed. You can clone or download this repository to your local machine and navigate through the exercise folders. 
 
 ## Acknowledgements
 
 These exercises were completed as part of the IT Academy Bootcamp, which provided me with a solid foundation in HTML and CSS for web development.
 
-Happy coding and creating beautiful web pages!
